@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const EmailTemplate = require('../models/emailTemplate');
+const EmailTemplate = require('../models/EmailTemplate');
 
 exports.getEmailLayout = (req, res) => {
     const layoutPath = path.join(__dirname, '../views/layout.html');
